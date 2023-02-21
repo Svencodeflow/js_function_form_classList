@@ -1,9 +1,9 @@
 console.log("hello");
 
-const num = document.getElementById('number').value
+const num = document.getElementById('number');
 
 console.log(num);
 
 function double() {
-    document.getElementById('here').innerHTML = num*2
+    document.getElementById('here').innerHTML = num.value*2
 }
